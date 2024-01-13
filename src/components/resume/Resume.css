@@ -1,0 +1,27 @@
+.resume-section {
+    position: relative !important;
+    padding-top: 110px !important;
+    padding-bottom: 30px !important;
+    background-image: var(--section-background-color) !important;
+    color: white !important;
+    overflow-x: hidden !important;
+    width: 100vw;
+  }
+   
+  .resume {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+   
+
+  
+  }
+
+ .download-btn{
+
+    margin-bottom: 50px;
+   
+
+ }
+
+ 

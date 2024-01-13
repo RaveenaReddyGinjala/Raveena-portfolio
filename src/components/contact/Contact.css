@@ -1,0 +1,118 @@
+.home-contact{
+    color: white !important;
+    padding-top: 10%;
+    margin-bottom: 17px;
+  
+
+   
+  }
+  .home-contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  .home-contact-form{
+    width: 30%;
+  }
+   
+  .home-contact-label{
+    display: flex;
+    justify-content: flex-start;
+    color: var(--imp-text-color) !important;
+  }
+   
+  .home-contact-text{
+    padding: 10%;
+  }
+   
+  .home-about-social-links {
+    justify-content: center !important;
+    padding-top: 15px !important;
+    display: inline-block !important;
+    position: relative !important;
+    padding-inline-start: 0 !important;
+  }
+   
+  .home-social-icons {
+    position: relative !important;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    text-align: center !important;
+    font-size: 1.2em !important;
+    line-height: 2em !important;
+    background: rgba(255, 255, 255, 0.972) !important;
+    border-radius: 50% !important;
+    transition: 0.5s !important;
+  }
+   
+  .home-social-icons::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #68187a;
+    transition: 0.5s;
+    transform: scale(0.9);
+    z-index: -1;
+  }
+   
+  .home-social-icons:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #801f95;
+  }
+   
+  .home-social-icons:hover {
+    color: #87209e;
+    box-shadow: 0 0 5px #87209e;
+    text-shadow: 0 0 2px #87209e;
+  }
+   
+  .social-icons {
+    display: inline-block !important;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+   
+  .icon-colour {
+    color: #700c86 !important;
+  }
+
+
+  @media (max-width: 992px) {
+    .home-contact-form{
+      width: 50%;
+    }
+   
+    .home-contact{
+      color: white !important;
+      margin-top: 20%;
+    }
+  }
+
+
+  @media (max-width: 767px) {
+ 
+ 
+    .home-contact{
+      color: white !important;
+      margin-top: 20%;
+     
+    }
+   
+    .home-contact-form{
+      width: 70%;
+    }
+   
+   
+  }
+
+
+  /* "service_1szw9hx",
+  "template_uaumjxx",
+  e.target,
+  "PccIPV6FKCPoGc958" */
