@@ -4,10 +4,11 @@ const initialData = {
   myData: data,
 };
 
-export const reducer = (state, { type, payload }) => {
+export const reducer = (state = initialData, { type, payload }) => {
   switch (type) {
     case "ADD_MY_DATA":
-      console.log(payload);
       return { ...state, myData: payload };
+    default:
+      return state;
   }
 };
