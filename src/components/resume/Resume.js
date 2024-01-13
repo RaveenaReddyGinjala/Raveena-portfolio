@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import { useSelector } from "react-redux";
+// import { useSelector } from "react-redux";
 import Particle from "../home/Particle";
 import "./Resume.css";
 import pdf from "../../Assets/Raveenareddy.pdf";
@@ -13,7 +13,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function Resume() {
   const [width, setWidth] = useState();
-  const url = useSelector((state) => state?.myData?.resume);
+  // const url = useSelector((state) => state?.myData?.resume);
   const [numPages, setNumPages] = useState(null);
   const onDocumentLoadSuccess = ({ numPages }) => {
     console.log(numPages);

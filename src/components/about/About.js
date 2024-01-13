@@ -5,11 +5,13 @@ import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import Techstack from "./Techstack";
 import "./About.css";
+import Particle from "../home/Particle";
 
 function About() {
   return (
     <Container fluid className="about-section">
       <Container>
+        <Particle />
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
             md={7}

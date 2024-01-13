@@ -12,7 +12,7 @@ import Contact from "./components/contact/Contact";
 import Navbar from "./components/navbar/NavBar";
 import { useDispatch } from "react-redux";
 import { addmydatadata } from "./redux/Action";
-import Particle from "./components/home/Particle";
+
 import "./style.css";
 import Loader from "./components/loader/Loader";
 import Footer from "./components/footer/Footer";
@@ -35,12 +35,12 @@ function App() {
     }, 1200);
 
     return () => clearTimeout(timer);
-  }, []);
+  });
 
   return (
     <div className="App" id={isloading ? "no-scroll" : "scroll"}>
       <Loader isloading={isloading} />
-      {/* <Particle /> */}
+
       <BrowserRouter>
         <Navbar />
         <Routes>

@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 import { useSelector } from "react-redux";
 import "./Projects.css";
+import Particle from "../home/Particle";
 
 function Projects() {
   const projectlist = useSelector((state) => state?.myData?.projects);
@@ -10,6 +11,7 @@ function Projects() {
   return (
     <Container fluid className="project-section">
       <Container>
+        <Particle />
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
