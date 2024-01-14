@@ -27,7 +27,12 @@ function ProjectCards(props) {
         </Card.Text>
         <div className="btn-container">
           {props.ghLink && (
-            <Button variant="primary" href={props.ghLink} target="_blank">
+            <Button
+              variant="primary"
+              href={props.ghLink}
+              target="_blank"
+              className="githubbtn"
+            >
               <BsGithub /> &nbsp; GitHub
               {/* {props.isBlog ? "Blog" : "GitHub"} */}
             </Button>

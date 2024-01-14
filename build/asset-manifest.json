@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.d661471d.css",
-    "main.js": "/static/js/main.9e98faf5.js",
+    "main.css": "/static/css/main.c9b42088.css",
+    "main.js": "/static/js/main.e85b9fea.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
+    "static/media/avatar.png": "/static/media/avatar.f2a0c45c007aad19668a.png",
+    "static/media/about.png": "/static/media/about.5bc3f6e7cdea016b632d.png",
     "static/media/Raveenareddy.pdf": "/static/media/Raveenareddy.e6d04eb722f48824d938.pdf",
     "static/media/LaptopLoading.gif": "/static/media/LaptopLoading.a0f547e528df4f4cac29.gif",
-    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/avatar.svg": "/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.d661471d.css.map": "/static/css/main.d661471d.css.map",
-    "main.9e98faf5.js.map": "/static/js/main.9e98faf5.js.map",
+    "main.c9b42088.css.map": "/static/css/main.c9b42088.css.map",
+    "main.e85b9fea.js.map": "/static/js/main.e85b9fea.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d661471d.css",
-    "static/js/main.9e98faf5.js"
+    "static/css/main.c9b42088.css",
+    "static/js/main.e85b9fea.js"
   ]
 }

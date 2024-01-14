@@ -36,15 +36,22 @@
   }
 
   @media (min-width: 992px) {
-    .project-text{
-     height: 75%;
+
+    .btn-container{
+      margin-bottom: 15px !important;
     }
+    .project-text{
+     height:67%;
+    }
+
     }
 
  
 .demobtn{
   margin-left: 10px;
+
 }
+
 
  @media (min-width: 768px) and ( max-width : 992px ) {
         .demobtn{
