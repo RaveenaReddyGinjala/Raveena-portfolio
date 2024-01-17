@@ -1,5 +1,4 @@
 export const data = {
-  {
   "about": {
     "interests": "Cooking,Watching Movies",
     "intro": "<br/>I am a <b>collaborative</b> and <b>result-oriented</b> professional<br/><br/>Proficient in foundational languages like <i><b>Java</b></i>, <i><b>Javascript</b></i>, <i><b>HTML</b></i>, and <i><b>CSS</b></i><br/><br/>My field of interest lies in building innovative <i><b>Web Technologies and Products</b></i><br/><br/>I am skilled in both front and back-end development, utilizing <b>Spring Boot</b> for robust server-side solutions and <i><b>Modern Javascript Libraries and Frameworks</b></i> such as <i><b>React.js</b></i> for responsive front-end interfaces.",
