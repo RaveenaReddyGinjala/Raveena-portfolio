@@ -1,76 +1,53 @@
 export const data = {
-  intro: "<p>Sai Teja</p>",
-  about: {
-    Skill: "React",
-    company: "Cognizant",
-    experience: 3,
-    position: "Software Engineer",
-    role: "React Developer",
+  {
+  "about": {
+    "interests": "Cooking,Watching Movies",
+    "intro": "<br/>I am a <b>collaborative</b> and <b>result-oriented</b> professional<br/><br/>Proficient in foundational languages like <i><b>Java</b></i>, <i><b>Javascript</b></i>, <i><b>HTML</b></i>, and <i><b>CSS</b></i><br/><br/>My field of interest lies in building innovative <i><b>Web Technologies and Products</b></i><br/><br/>I am skilled in both front and back-end development, utilizing <b>Spring Boot</b> for robust server-side solutions and <i><b>Modern Javascript Libraries and Frameworks</b></i> such as <i><b>React.js</b></i> for responsive front-end interfaces.",
+    "myself": "Hi Everyone, I am <span>Raveena Ginjala </span>from <span> Tampa,Florida,US.</span><br />I currently pursuing  Master's  at USF .<br />I have 3 years of software experience in developing end-to-end web applications.<br />",
+    "quote": "Strive to build things that make a difference!"
   },
-  projects: [
+  "projects": [
     {
-      demoLink:
-        "https://saitejakalepu.github.io/Realtime-Expense-Tracker-Redux/",
-      description:
-        "Real time expense tracker built with React JS and Redux which notes the user expenses and store them in local storage. User can Edit or Delete or Filter the expenses.",
-      ghLink: "https://github.com/saitejakalepu/Realtime-Expense-Tracker-Redux",
-      imgPath:
-        "https://firebasestorage.googleapis.com/v0/b/saitejakalepu-portfolio.appspot.com/o/expense_tracker.png?alt=media&token=7e909d21-e899-4b53-815e-347f7ab6403e",
-      isBlog: false,
-      title: "Realtime Expense Tracker",
+      "demoLink": "https://rangeravbyraveena.web.app/",
+      "description": "An e-commerce website build using Firebase,React Js and Redux,where users can browse products,add them to cart and place/cancel orders in realtime. Additionally this application can save and validate card details in realtime.  This site features intuitive navigation and robust functionality, ensuring a user-friendly and efficient online shopping journey. ",
+      "ghLink": "https://github.com/RaveenaReddyGinjala/Expense-Tracker",
+      "imgPath": "https://firebasestorage.googleapis.com/v0/b/raveena-portfolio.appspot.com/o/ShoppingWebsite.png?alt=media&token=e90ccd40-1538-45f3-a65c-0bd71a3cee0a",
+      "isBlog": false,
+      "title": "RavShopping"
     },
     {
-      demoLink: "https://travel-website-development.web.app/",
-      description:
-        "Travel booking application is a multi-page web application built with React JS, Firebase, Bootstrap and Email JS. Have features which allows users to log in or Sign up in real time using email/gmail/phone number and book holiday packages with credit card. Additionally user can subscribe to newsletter or provide feedback regarding the services.",
-      ghLink: "https://github.com/saitejakalepu/TravelWebsite",
-      imgPath:
-        "https://firebasestorage.googleapis.com/v0/b/saitejakalepu-portfolio.appspot.com/o/travel-website.png?alt=media&token=66af83f5-2dd5-4a30-8515-7335c9fe0706",
-      isBlog: false,
-      title: "Travel Buddy",
+      "demoLink": "https://raveena-expense-tracker.netlify.app/",
+      "description": "Real time expense tracker built with React JS, Redux  and moment.js which notes the user expenses and store them in local storage. User can Edit or Delete or Filter the expenses.User can see the sum of expense added in the tracker.",
+      "ghLink": "https://github.com/RaveenaReddyGinjala/Expense-Tracker",
+      "imgPath": "https://firebasestorage.googleapis.com/v0/b/raveena-portfolio.appspot.com/o/expensetracker.png?alt=media&token=7ed8c1db-60f1-4af6-a347-a86e7d77e95d",
+      "isBlog": false,
+      "title": "Realtime Expense Tracker"
     },
     {
-      demoLink: "https://saitejakalepu.github.io/Covid19-dashboard/",
-      description:
-        "Covid Dashboard built with React JS, Material UI, Leaflet, Chartjs2. The Application fetches the realtime data from disease.sh and display in 4 different formats - Card view, Map view, Table view and Chart view. Have features which allows user to search the data for specific country.",
-      ghLink: "https://github.com/saitejakalepu/Covid19-dashboard",
-      imgPath:
-        "https://firebasestorage.googleapis.com/v0/b/saitejakalepu-portfolio.appspot.com/o/covid_dashboard.png?alt=media&token=2c143844-9ed8-4def-a180-615ec3fd324a",
-      isBlog: false,
-      title: "Covid Dashboard",
+      "demoLink": "https://raveena-todolist.netlify.app/",
+      "description": "To-Do List built using React JS and React hooks. User can add list of tasks planned for the day and later mark the task as completed. Additionally user can edit or delete the task from the list. Since all the tasks are stored in local storage user can visit the application whenever required and update the task.",
+      "ghLink": "https://github.com/RaveenaReddyGinjala/TODO-LIST-FUNCTIONAL/tree/master",
+      "imgPath": "https://firebasestorage.googleapis.com/v0/b/raveena-portfolio.appspot.com/o/ToDoList.png?alt=media&token=165ebef7-a6b3-4299-bc60-843423626db7",
+      "isBlog": false,
+      "title": "To-Do List"
     },
     {
-      demoLink: "https://saitejakalepu.github.io/Food-Delivery-App-FrontEnd/",
-      description:
-        "Food Delivery Application build with React JS. User can view or filter all the nearby restaurants.",
-      ghLink: "https://github.com/saitejakalepu/Food-Delivery-App-FrontEnd",
-      imgPath:
-        "https://firebasestorage.googleapis.com/v0/b/saitejakalepu-portfolio.appspot.com/o/zomato.png?alt=media&token=34c046f7-3b55-4de7-9aee-89de12d7087b",
-      isBlog: false,
-      title: "Hello Foodie",
+      "demoLink": "https://image-galley-api-call.netlify.app/",
+      "description": "Image Gallery build using React JS and Rest API'S .React app dynamically fetches and displays images from Unsplash based on user queries, offering features like live search, image download, and displaying image.",
+      "ghLink": "https://github.com/RaveenaReddyGinjala/Image-Gallery-Functional/tree/master",
+      "imgPath": "https://firebasestorage.googleapis.com/v0/b/raveena-portfolio.appspot.com/o/ImageGallery.png?alt=media&token=1790ce71-6644-4cad-96b1-e6849a621efe",
+      "isBlog": false,
+      "title": "Image-Gallery"
     },
     {
-      demoLink: "https://saitejakalepu.github.io/TodoList-Redux/",
-      description:
-        "To-Do List built using React JS and Redux. User can add list of tasks planned for the day and later mark the task as completed. Additionally user can edit or delete the task from the list. Since all the tasks are stored in local storage user can visit the application whenever required and update the task.",
-      ghLink: "https://github.com/saitejakalepu/TodoList-Redux",
-      imgPath:
-        "https://firebasestorage.googleapis.com/v0/b/saitejakalepu-portfolio.appspot.com/o/todo_list.png?alt=media&token=9a58ed8f-a42c-4269-a1c1-53de4f149c0e",
-      isBlog: false,
-      title: "Todo List",
-    },
-    {
-      demoLink: "https://saitejakalepu.github.io/Tic-Tac-Toe_Game/",
-      description: "A famous Two Player game built using React JS.",
-      ghLink: "https://github.com/saitejakalepu/Tic-Tac-Toe_Game",
-      imgPath:
-        "https://firebasestorage.googleapis.com/v0/b/saitejakalepu-portfolio.appspot.com/o/tic-tac-toe.png?alt=media&token=e00941fd-3956-4a9b-8ac3-2185c8a937be",
-      isBlog: false,
-      title: "Tic Tac Toe",
-    },
+      "demoLink": "https://api-call-class-github.netlify.app/",
+      "description": "Todo- Explorer dynamic task management app that showcases real-time search and status-based filtering, leveraging React for responsive UI and Axios for seamless API integration.",
+      "ghLink": "https://github.com/RaveenaReddyGinjala/API-CALL-FUNCTION/tree/master",
+      "imgPath": "https://firebasestorage.googleapis.com/v0/b/raveena-portfolio.appspot.com/o/Todo-Explorer.png?alt=media&token=52e7d527-71c9-434b-bd6b-44be237aead2",
+      "isBlog": false,
+      "title": "Todo-Explorer"
+    }
   ],
-  resume:
-    "https://firebasestorage.googleapis.com/v0/b/saitejakalepu-portfolio.appspot.com/o/Sai's%20Resume.pdf?alt=media&token=7ddd5009-04e0-4c85-b651-17a7abb2a977",
-  writer:
-    "React Developer,Front End Developer,Enthusiastic Dev,Open Source Contributor",
+  "resume": "https://firebasestorage.googleapis.com/v0/b/raveena-portfolio.appspot.com/o/Raveena%20Resume.pdf?alt=media&token=fd1efa53-1a34-44b5-882c-2d0b452c17d9",
+  "writer": "Full Stack Developer,End-to-End Developer, React Developer,Front End Developer,Enthusiastic Dev,Open Source Contributor"
 };
