@@ -14,6 +14,10 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Contact() {
+
+
+
+
   function sendEmail(e) {
     e.preventDefault();
     emailjs
