@@ -14,7 +14,7 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 
-import { CgFileDocument } from "react-icons/cg";
+// import { CgFileDocument } from "react-icons/cg";
 import "./NavBar.css";
 
 function NavBar() {
