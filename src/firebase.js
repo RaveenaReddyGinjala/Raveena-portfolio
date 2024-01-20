@@ -6,13 +6,13 @@ import "firebase/compat/database";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAMCIeb5fx3Cdw9Y-mv5sypK2Xj1SQgBxM",
-  authDomain: "raveena-portfolio.firebaseapp.com",
-  databaseURL: "https://raveena-portfolio-default-rtdb.firebaseio.com",
-  projectId: "raveena-portfolio",
-  storageBucket: "raveena-portfolio.appspot.com",
-  messagingSenderId: "150353262316",
-  appId: "1:150353262316:web:281a74790418653f9a97c9",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  databaseURL: process.env.REACT_APP_FIREBASE_DATABASE_URL,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGINGSENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
 };
 
 // Initialize Firebase
